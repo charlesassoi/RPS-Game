@@ -30,7 +30,7 @@ function generateComputerChoice(){
 
 function getResult(){
 
-    resultDisplay.innerHTML=result;
+    
         switch (userChoice){
             case "rock":
                 switch(computerChoice){
@@ -77,6 +77,7 @@ function getResult(){
 
 
         }
+    resultDisplay.innerHTML=result;
 
 
     }
